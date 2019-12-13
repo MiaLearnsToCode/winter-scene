@@ -1,0 +1,225 @@
+/* general snow styling */
+
+.snow {
+  position: relative;
+  border-radius: 50%;
+}
+
+.big-snow {
+  height: 10px;
+  width: 10px;
+  background-color: #e3f8fd;
+}
+
+.small-snow {
+  height: 7px;
+  width: 7px;
+  background-color: #e2fffd;
+}
+
+.small-grey-snow {
+  height: 7px;
+  width: 7px;
+  background-color: #80e7fe;
+}
+
+/* big snow */
+
+.b-one {
+  top: 6px;
+  left: 13px;
+}
+
+.b-two {
+  top: 3px;
+  left: 210px;  
+}
+
+.b-three {
+  top: -9px;
+  left: 352px;  
+}
+
+.b-four {
+  top: 43px;
+  left: 137px;
+}
+
+.b-five {
+  top: 7px;
+  left: 275px;
+}
+
+.b-six {
+  top: 50px;
+  left: 325px;
+}
+
+.b-seven {
+  top: 80px;
+  left: 482px;
+}
+
+.b-eight {
+  top: 80px;
+  left: 175px;  
+}
+
+.b-nine {
+  top: 125px;
+  left: 295px;  
+}
+
+.b-ten {
+  top: 105px;
+  left: 160px;  
+}
+
+.b-eleven {
+  top: 225px;
+  left: 170px;  
+}
+
+.b-twelve {
+  top: 272px;
+  left: 327px;  
+}
+
+.b-thirteen {
+  top: 207px;
+  left: 485px; 
+}
+
+.b-fourteen {
+  top: 26px;
+  left: 12px;
+}
+
+.b-fifteen {
+  top: 190px;
+  left: 8px;
+}
+
+/* small snow (light) */
+
+.s-one {
+  top: -118px;
+  left: 48px;
+}
+
+.s-two {
+  top: -85px;
+  left: 199px;
+}
+
+.s-three {
+  top: -110px;
+  left: 355px;
+}
+
+.s-four {
+  top: -98px;
+  left: 468px;
+}
+
+.s-five {
+  top: -167px;
+  left: 477px;
+}
+
+.s-six {
+  top: -22px;
+  left: 98px;
+}
+
+.s-seven {
+  top: 0px;
+  left: 390px;
+}
+
+.s-eight {
+  top: 72px;
+  left: 483px;
+}
+
+.s-nine {
+  top: 175px;
+  left: 20px;
+}
+
+.s-ten {
+  top: 182px;
+  left: 250px;
+}
+
+.s-eleven {
+  top: 115px;
+  left: 333px;
+}
+
+/* small snow (dark) */
+
+.sg-one {
+  top: -127px;
+  left: 37px;
+}
+
+.sg-two {
+  top: -155px;
+  left: 90px;
+}
+
+.sg-three {
+  top: -233px;
+  left: 105px;
+}
+
+.sg-four {
+  top: -40px;
+  left: 55px;
+}
+
+.sg-five {
+  top: -15px;
+  left: 125px;
+}
+
+.sg-six {
+  top: -95px;
+  left: 250px;
+}
+
+.sg-seven {
+  top: -58px;
+  left: 218px;
+}
+
+.sg-eight {
+  top: -38px;
+  left: 258px;
+}
+
+.sg-nine {
+  top: 45px;
+  left: 388px;
+}
+
+.sg-ten {
+  top: -190px;
+  left: 392px;
+}
+
+.sg-eleven {
+  top: 60px;
+  left: 200px;
+}
+
+.sg-twelve {
+  top: -70px;
+  left: 345px;
+}
+
+.sg-thirteen {
+  top: -83px;
+  left: 478px;
+}

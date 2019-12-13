@@ -1,0 +1,67 @@
+.clouds {
+  position: relative;
+  top:-333px;
+  height: 500px;
+  width: 500px;
+}
+
+.cloud-part {
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  background-color: #4b9aab;
+}
+
+.fog {
+  background-color: #4b9aab5e;
+}
+
+.fog-top {
+  clip-path: polygon(0 21%, 100% 9%, 100% 11%, 0 24%);
+}
+
+.fog-buttom {
+  clip-path: polygon(0 26%, 100% 16%, 100% 24%, 0 30%);
+}
+
+
+.c-left-head {
+  clip-path: ellipse(9% 6% at 26% 8%);
+}
+
+.c-left-side-one {
+  clip-path: ellipse(4% 2% at 7% 24%);
+  transform: rotate(18deg);
+}
+
+.c-left-side-two {
+  clip-path: ellipse(5% 2% at 42% 10.5%);
+  transform: rotate(-10deg);
+}
+
+.c-left-base {
+  clip-path: ellipse(22% 1% at 24% 14%);
+}
+
+.c-center-head {
+  z-index: -100;
+  clip-path: ellipse(6% 4% at 51% 26%);
+} 
+
+.c-center-side {
+  clip-path: ellipse(3% 1% at 61.5% 31%);
+  transform: rotate(-15deg);
+}
+
+.c-center-base {
+  clip-path: ellipse(10% 0.6% at 50% 30%);
+}
+
+.c-right-head {
+  clip-path: ellipse(4% 3% at 84% 6%);
+} 
+
+.c-right-base {
+  clip-path: ellipse(8% 0.8% at 83% 8.5%);
+}
+

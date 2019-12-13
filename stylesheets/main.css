@@ -1,0 +1,20 @@
+body {
+  background-color: darkblue;
+}
+
+main {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.container {
+  height: 500px;
+  width: 500px;
+  background-size: cover;
+  background-image: url('scene.png');
+}
+
+
+
