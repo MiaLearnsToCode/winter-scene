@@ -1,0 +1,78 @@
+.floor-container {
+  position: relative;
+  top:-2020px;
+  height:500px;
+  width: 500px;
+}
+
+.floor {
+  position: absolute;
+  height: 100%;
+  width: 100%;
+} 
+
+.f-one {
+  /* background-color: #fefefe; */
+  clip-path: ellipse(81% 13% at 43% 95%);
+}
+
+.f-two {
+  /* background-color: #fefefe; */
+  clip-path: ellipse(34% 6% at 100% 89%);
+}
+
+.f-three {
+  /* background-color: #a9d2d9; */
+  clip-path: ellipse(34% 6% at 0% 92%);
+}
+
+.f-four {
+  /* background-color: #a9d2d9; */
+  clip-path: ellipse(34% 6% at 100% 92%);
+}
+
+.f-five {
+  /* background-color: #daf9fe; */
+  clip-path: polygon(0 89%, 100% 89%, 100% 100%, 0 100%);
+}
+
+/* stone shadows */
+.stone-shadow {
+  /* background-color: #c2dfe5; */
+}
+
+.stone-highlight {
+  /* background-color: #fefefe; */
+}
+
+.f-six {
+  clip-path: ellipse(9% 2% at 88% 83%);
+}
+
+.f-seven {
+  clip-path: ellipse(3% 2% at 70% 83%);
+}
+
+.f-eight {
+  clip-path: ellipse(3% 6% at 34% 78%);
+}
+
+.f-nine {
+  clip-path: ellipse(4% 2% at 6% 82%);
+}
+
+.f-ten {
+  clip-path: ellipse(7% 1% at 88% 82%);
+}
+
+.f-eleven {
+  clip-path: ellipse(3% 1% at 70% 82%);
+}
+
+.f-twelve {
+  clip-path: ellipse(2% 5% at 34% 77%);
+}
+
+.f-thirteen {
+  clip-path: ellipse(3% 1% at 6% 81%);
+}

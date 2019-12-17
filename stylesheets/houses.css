@@ -1,0 +1,377 @@
+.houses-container {
+  position: relative;
+  top:-1520px;
+  height:500px;
+  width: 500px;
+}
+
+.house-part {
+  position: absolute;
+  height: 100%;
+  width: 100%;
+} 
+
+.yellow .house-part {
+  background-color:#c7a138;
+}
+
+/* house one */
+
+.yellow .house-box-dark {
+  clip-path: polygon(7% 82%, 32% 82%, 33% 54%, 19% 41%, 5% 54%);
+}
+
+.yellow .house-box-light {
+  background-color:#fed569;
+  clip-path: polygon(8% 82%, 31% 82%, 32% 54%, 19% 43%, 7% 54%);
+}
+
+.yellow .strike-one {
+  clip-path: polygon(23% 46%, 21% 45%, 17% 46%);
+}
+
+.yellow .strike-two {
+  clip-path: polygon(8% 53%, 9% 52%, 15% 51%);
+}
+
+.yellow .strike-three {
+  clip-path: polygon(19% 54%, 31% 53%, 31% 54%);
+}
+
+.yellow .strike-four {
+  clip-path: polygon(7% 63%, 24% 63%, 7% 64%);
+}
+
+.yellow .strike-five {
+  clip-path: polygon(7% 68%, 25% 67%, 7% 69%);
+}
+
+.yellow .strike-six {
+  clip-path: polygon(23% 70%, 32% 69%, 32% 70%);
+}
+
+.yellow .shadow-one {
+  clip-path: ellipse(6% 1% at 25% 58%);
+}
+
+.yellow .shadow-two {
+  clip-path: ellipse(6% 1% at 25% 72%);
+}
+
+.yellow .shadow-three {
+  clip-path: ellipse(5% 1% at 13% 58%);
+}
+
+.yellow .door-dark {
+background-color: #4264ab;
+clip-path: polygon(10% 82%, 10% 58%, 17% 58%, 17% 82%);
+}
+
+.yellow .door-light {
+background-color: #678dcc;
+clip-path: polygon(11% 59%, 10% 82%, 17% 82%, 16% 58%);
+}
+
+.yellow .door-window {
+background-color: #02f9ff;
+clip-path: polygon(12% 60%, 11.5% 68%, 15.5% 68%, 15.5% 60%);
+}
+
+.yellow .door-window-light {
+background-color: #d8fefe;
+clip-path: ellipse(1.2% 3% at 13.5% 64%);
+}
+
+.yellow .door-snow-dark {
+background-color: #c4ddda;
+clip-path: polygon(9% 57%, 18% 57%, 17% 58%, 9% 58%);
+}
+
+.yellow .door-snow-light {
+background-color: #fdfefb;
+clip-path: polygon(9% 56%, 18% 55%, 17% 57%, 9% 57%);
+}
+
+.yellow .window-one-dark {
+  background-color: #678bcb;
+  clip-path: polygon(14.5% 51%, 23% 50%, 23% 53%, 14.6% 53%);
+}
+
+.yellow .window-one-light {
+  background-color: #00f8fe;
+  clip-path: polygon(15.2% 51.5%, 22% 51%, 22.5% 52.5%, 15% 52.5%);
+}
+
+.yellow .window-one-snow-dark {
+  background-color: #c5dedf;
+  clip-path: polygon(14% 49%, 23.4% 50%, 23.6% 50%, 14% 51%);
+}
+
+.yellow .window-one-snow-light {
+  background-color: #ffffff;
+  clip-path: polygon(14% 48%, 23.4% 48%, 23.4% 49.5%, 14% 50%);
+}
+
+.yellow .roof-shadow {
+  background-color: #c5dae3;
+  clip-path: polygon(2% 54%, 4% 55%, 19% 41%, 33% 54%, 34% 53%, 19% 39%);
+}
+
+.yellow .roof-top {
+  background-color: #fefefe;
+  clip-path: polygon(3% 54.5%, 0.7% 53%, 19% 37%, 36% 52%, 34% 53.0%, 19% 40%)
+}
+
+.yellow .chimney-dark {
+  clip-path: polygon(6% 43%, 9% 42%, 11% 44%, 9% 46%);
+}
+
+.yellow .chimney-light {
+  background-color: #ffd66a;
+  clip-path: polygon(5% 40%, 9% 40%, 9% 42%, 6% 43%);
+}
+
+.yellow .chimney-snow-shadow {
+  background-color: #c1dddf;
+  clip-path: polygon(4% 40%, 4% 38%, 11% 38%, 11% 40%);
+}
+
+.yellow .chimney-snow-light {
+  background-color: #fefefe;
+  clip-path: polygon(4% 35%, 11% 36%, 11% 39%, 4% 38%);
+}
+
+/* house: red */
+
+.red .house-part {
+  background-color:#951c49;
+}
+
+.red .house-box-dark {
+  clip-path: polygon(39% 83%, 39% 59%, 62% 59%, 62% 83%);
+}
+
+.red .house-box-light {
+  background-color:#c72560;
+  clip-path: polygon(39% 83%, 40% 60%, 62% 60%, 62% 83%);
+}
+
+.red .shadow-one {
+  clip-path: ellipse(4% 1% at 46% 63%);
+}
+
+.red .shadow-two {
+  clip-path: ellipse(4% 1% at 56% 63%);
+}
+
+.red .shadow-three {
+  clip-path: ellipse(4% 1% at 46% 75%);
+}
+
+.red .door-dark {
+  background-color: #7c8cac;
+  clip-path: polygon(53% 62%, 53% 83%, 60% 83%, 60% 62%);
+}
+
+.red .door-light {
+  background-color: #a5b4d1;
+  clip-path: polygon(53.5% 63.3%, 53.5% 83%, 60% 83%, 59.5% 63.3%);
+}
+
+.red .door-window-one {
+  background-color: #05f7fb;
+  clip-path: polygon(53.8% 64%, 56% 64%, 56% 69%, 54% 69%);
+}
+
+.red .door-window-light-one {
+  background-color: #dcfdfd;
+  clip-path: ellipse(0.8% 1.5% at 55% 67%);
+}
+
+.red .door-window-two {
+  background-color: #05f7fb;
+  clip-path: polygon(57% 64%, 59% 64%, 59% 69%, 57% 69%);
+}
+
+.red .door-window-light-two {
+  background-color: #dcfdfd;
+  clip-path: ellipse(0.7% 1.5% at 58% 66%);
+}
+
+.red .door-window-three {
+  background-color: #05f7fb;
+  clip-path: polygon(57% 70%, 59% 70%, 59% 75%, 57% 75%);
+}
+
+.red .door-window-light-three {
+  background-color: #dcfdfd;
+  clip-path: ellipse(0.7% 1.5% at 58% 73%);
+}
+.red .door-window-four {
+  background-color: #05f7fb;
+  clip-path: polygon(54% 70%, 56% 70%, 56% 75%, 54.2% 75%);
+}
+
+.red .door-window-light-four {
+  background-color: #dcfdfd;
+  clip-path: ellipse(0.6% 1.7% at 55% 73%);
+}
+
+.red .door-snow-dark {
+  background-color: #c6dbde;
+  clip-path: polygon(52% 61%, 52% 62%, 60.2% 63%, 61.2% 61%);
+}
+
+.red .door-snow-light {
+  background-color: #fefefe;
+  clip-path: polygon(52% 60%, 52% 61%, 61% 62%, 61% 60%);
+}
+
+.red .roof-shadow {
+  background-color:#c3d9db;
+  clip-path: polygon(38% 59%, 35.8% 57%, 65% 57%, 64% 59%);
+}
+
+.red .roof-top {
+  background-color:#ffffff;
+  clip-path: polygon(36% 57%, 40% 44%, 63% 43%, 65% 57%);
+}
+
+.red .chimney-dark {
+  clip-path: polygon(41% 47%, 42% 42%, 46% 42%, 46% 47%);
+}
+
+.red .chimney-light {
+  background-color: #c82460;
+  clip-path: polygon(41% 47%, 42% 44%, 45% 44%, 46% 47%);
+}
+
+.red .chimney-snow-shadow {
+  background-color: #c1dddf;
+  clip-path: polygon(39% 43%, 39% 41%, 49% 40%, 49% 42%);
+}
+
+.red .chimney-snow-light {
+  background-color: #fefefe;
+  clip-path: polygon(39% 41%, 40% 37%, 49% 36%, 49% 41%);
+}
+
+/* house: blue */
+
+.blue .house-part {
+  background-color:#355593;
+}
+
+.blue .house-box-dark {
+  clip-path: polygon(70% 83%, 69% 48%, 84% 35%, 96% 48%, 95% 84%);
+}
+
+.blue .house-box-light {
+  background-color:#668ccb;
+  clip-path: polygon(83% 38%, 71% 48%, 70% 83%, 95% 84%, 94% 49%);
+}
+
+.blue .strike-one {
+  clip-path: polygon(87% 41%, 86% 40%, 81% 40%);
+}
+
+.blue .strike-two {
+  clip-path: polygon(70% 70%, 70% 68%, 87% 69%);
+}
+
+.blue .strike-three {
+  clip-path: polygon(70% 64%, 70% 66%, 87% 65%);
+}
+
+.blue .strike-four {
+  clip-path: polygon(95% 71%, 95% 72%, 87% 71%);
+}
+
+.blue .strike-five {
+  clip-path: polygon(74% 45%, 72% 47%, 85% 46%);
+}
+
+.blue .strike-six {
+  clip-path: polygon(94% 47%, 84% 48%, 95% 49%);
+}
+
+.blue .shadow-one {
+  clip-path: ellipse(5% 1% at 83% 55%);
+}
+
+.blue .shadow-two {
+  clip-path: ellipse(5% 1% at 83% 46%);
+}
+
+.blue .shadow-three {
+  clip-path: ellipse(5% 1% at 88% 62%);
+}
+
+.blue .shadow-four {
+  clip-path: ellipse(5% 1% at 88% 76%);
+}
+
+.blue .shadow-five {
+  clip-path: ellipse(5% 1% at 77% 62%);
+}
+
+.blue .door-dark {
+  background-color: #83a0cc;
+  clip-path: polygon(73% 62%, 80% 62%, 80% 84%, 73% 83%);
+}
+
+.blue .door-light {
+  background-color: #cbd4e5;
+  clip-path: polygon(73.5% 63%, 79.5% 63%, 79.5% 83%, 73.5% 83%);
+}
+
+.blue .door-window {
+  background-color: #fdfd00;
+  clip-path: polygon(74.2% 64.5%, 78.5% 64.5%, 78.5% 71%, 74.2% 71%);
+}
+
+.blue .door-window-light {
+  background-color: #ffffff;
+  clip-path: ellipse(1% 2.4% at 77% 67.5%);
+}
+
+.blue .door-snow-dark {
+  background-color: #c3dbdf;
+  clip-path: polygon(73% 61%, 73% 62%, 80% 62%, 81% 61%);
+}
+
+.blue .door-snow-light {
+  background-color: #fdfdfe;
+  clip-path: polygon(73% 61%, 72% 59%, 81% 60%, 81% 61%);
+}
+
+.blue .roof-shadow {
+  background-color:#c3d9db;
+  clip-path: polygon(68% 48.5%, 67% 48%, 83% 33%, 97% 48%, 96% 49%, 83% 35%);
+}
+
+.blue .roof-top {
+  background-color:#ffffff;
+  clip-path: polygon(67% 48%, 65% 46%, 83% 31%, 99% 46%, 97% 48%, 83% 34%);
+}
+
+.blue .chimney-dark {
+  clip-path: polygon(75% 38%, 73% 36%, 70% 37%, 72% 40%);
+}
+
+.blue .chimney-light {
+  background-color:#668ccb;
+  clip-path: polygon(70% 34%, 70% 37%, 73% 36%, 73% 34%);
+}
+
+.blue .chimney-snow-shadow {
+  background-color: #c1dddf;
+  clip-path: polygon(68% 32%, 68% 34%, 75% 34%, 75% 32%);
+}
+
+.blue .chimney-snow-light {
+  background-color: #fefefe;
+  clip-path: polygon(68% 30%, 68% 32%, 75% 33%, 75% 30%);
+}
+
+

@@ -1,0 +1,49 @@
+.house-shadows {
+  position: relative;
+  z-index: -1;
+  top:-1020px;
+  height:500px;
+  width: 500px;
+}
+
+.shadow-dark {
+  /* background-color: #1c525e; */
+  position: absolute;
+  height: 100%;
+  width: 100%;
+}
+
+.shadow-light {
+  /* background-color: #226472; */
+  position: absolute;
+  height: 100%;
+  width: 100%;
+}
+
+.shadow-one {
+  clip-path: polygon(78% 41%, 78% 37%, 75% 37%, 77% 26%, 88% 26%, 88% 25%, 87% 25%, 87% 21%, 93% 21%, 93% 25%, 92% 25%, 92% 26%, 93% 26%, 96% 36%, 94% 37%, 94% 43%);
+}
+
+.shadow-two {
+  clip-path: polygon(100% 47%, 94% 52%, 93% 83%, 100% 83%);
+}
+
+.shadow-three {
+  clip-path: polygon(0% 51%, 8% 56%, 9% 83%, 0% 83%);
+}
+
+.shadow-four {
+  clip-path: polygon(64% 85%, 64% 66%, 60% 67%, 61% 64%, 66% 59%, 64% 57%, 61% 53%, 69% 52%, 69% 55%, 67% 55%, 68% 58%, 72% 55%, 73% 83%);
+}
+
+.shadow-light-one {
+  clip-path: polygon(4% 52%, 3% 38%, 18% 37%, 18% 36%, 16% 35%, 16% 31%, 23% 30%, 23% 35%, 21% 35%, 21% 37%, 24% 38%, 25% 48%);
+}
+
+.shadow-light-two {
+  clip-path: polygon(28% 45%, 29% 43%, 26% 43%, 27% 41%, 26% 40%, 26% 36%, 31% 37%, 31% 40%, 29% 40%, 30% 43%, 36% 37%, 47% 47%, 46% 82%, 26% 81%);
+}
+
+.shadow-light-three {
+  clip-path: polygon(55% 38%, 56% 38%, 56% 36%, 55% 36%, 55% 32%, 61% 32%, 62% 36%, 59% 36%, 59% 37%, 76% 38%, 77% 85%, 51% 86%, 52% 44%);
+}

@@ -1,6 +1,6 @@
 .clouds {
   position: relative;
-  top:-333px;
+  top:-520px;
   height: 500px;
   width: 500px;
 }
@@ -9,11 +9,11 @@
   position: absolute;
   height: 100%;
   width: 100%;
-  background-color: #4b9aab;
+  /* background-color: #4b9aab; */
 }
 
 .fog {
-  background-color: #4b9aab5e;
+  /* background-color: #4b9aab5e; */
 }
 
 .fog-top {
