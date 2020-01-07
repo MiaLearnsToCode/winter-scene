@@ -1,6 +1,6 @@
 .floor-container {
   position: relative;
-  top:-2020px;
+  top:-2016px;
   height:500px;
   width: 500px;
 }
@@ -12,37 +12,37 @@
 } 
 
 .f-one {
-  /* background-color: #fefefe; */
-  clip-path: ellipse(81% 13% at 43% 95%);
+  background-color: #fefefe;
+  clip-path: ellipse(90% 13.5% at 30% 94.5%);
 }
 
 .f-two {
-  /* background-color: #fefefe; */
+  background-color: #fefefe;
   clip-path: ellipse(34% 6% at 100% 89%);
 }
 
 .f-three {
-  /* background-color: #a9d2d9; */
+  background-color: #a9d2d9;
   clip-path: ellipse(34% 6% at 0% 92%);
 }
 
 .f-four {
-  /* background-color: #a9d2d9; */
+  background-color: #a9d2d9;
   clip-path: ellipse(34% 6% at 100% 92%);
 }
 
 .f-five {
-  /* background-color: #daf9fe; */
+  background-color: #daf9fe;
   clip-path: polygon(0 89%, 100% 89%, 100% 100%, 0 100%);
 }
 
 /* stone shadows */
 .stone-shadow {
-  /* background-color: #c2dfe5; */
+  background-color: #c2dfe5;
 }
 
 .stone-highlight {
-  /* background-color: #fefefe; */
+  background-color: #fefefe;
 }
 
 .f-six {

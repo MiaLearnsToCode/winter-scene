@@ -9,11 +9,11 @@
   position: absolute;
   height: 100%;
   width: 100%;
-  /* background-color: #4b9aab; */
+  background-color: #4b9aab;
 }
 
 .fog {
-  /* background-color: #4b9aab5e; */
+  background-color: #4b9aab5e;
 }
 
 .fog-top {
@@ -44,8 +44,8 @@
 }
 
 .c-center-head {
-  z-index: -100;
   clip-path: ellipse(6% 4% at 51% 26%);
+  opacity: 80%;
 } 
 
 .c-center-side {

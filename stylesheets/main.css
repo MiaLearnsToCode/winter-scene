@@ -1,7 +1,3 @@
-body {
-  background-color: darkblue;
-}
-
 main {
   height: 100vh;
   display: flex;
@@ -13,7 +9,7 @@ main {
   height: 500px;
   width: 500px;
   background-size: cover;
-  background-image: url('scene.png');
+  background-color: #26707d;
 }
 
 

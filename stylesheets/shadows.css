@@ -1,20 +1,19 @@
 .house-shadows {
   position: relative;
-  z-index: -1;
   top:-1020px;
   height:500px;
   width: 500px;
 }
 
 .shadow-dark {
-  /* background-color: #1c525e; */
+  background-color: #1c525e;
   position: absolute;
   height: 100%;
   width: 100%;
 }
 
 .shadow-light {
-  /* background-color: #226472; */
+  background-color: #226472;
   position: absolute;
   height: 100%;
   width: 100%;
